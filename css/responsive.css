@@ -1,0 +1,17 @@
+@media screen and (max-width: 985px) {
+    #footer-content-division {
+        width: unset;
+        max-width: 985px;
+    }
+
+    #category-grid-div {
+        width: unset;
+        max-width: 985px;
+    }
+
+    #grid-heading{
+        width: 100%;
+
+    }
+}
+
