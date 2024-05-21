@@ -9,6 +9,8 @@ This is a UI mockup only. Search functionality and links are implemented redirec
 
 ## Getting Started:
 
+<img src="img/ui.png">
+
 ### Prerequisites:
 
 Clone this repository using git clone https://github.com/yasithperera/ikman.lk-clone.git.
