@@ -208,14 +208,16 @@ body {
 #search-bar-container {
     /*position: relative;*/
     height: 58px;
-    width: 795px;
+    /*width: 795px;*/
+    width: 80.7%;
 }
 
 #search-bar {
     /*position: absolute;*/
     font-size: 16px;
     padding: 18px 24px;
-    width: 737px;
+    /*width: 737px;*/
+    width: 92.7%;
     border: none;
     outline: none;
 }
@@ -244,6 +246,7 @@ body {
         height: 50px;
         border-radius: 60px;
         border: none;
+        margin: 5px;
         background-color: var(--button-yellow-color);
         cursor: pointer;
     }
@@ -387,6 +390,7 @@ main {
         div {
             display: flex;
             align-items: center;
+            width: 16px;
         }
 
         svg {
@@ -417,7 +421,7 @@ main {
     button {
         display: flex;
         align-items: center;
-        -ms-flex-pack: center;
+        /*-ms-flex-pack: center;*/
         justify-content: center;
         border-radius: 100px;
         min-width: 200px;
@@ -435,6 +439,7 @@ main {
         }
 
         div {
+            width: 16px;
             display: flex;
             align-items: center;
         }
