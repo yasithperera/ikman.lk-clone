@@ -9,9 +9,28 @@
         max-width: 985px;
     }
 
-    #grid-heading{
+    #grid-heading {
         width: 100%;
 
     }
+}
+
+@media screen and (max-width: 800px) {
+    #all-ads-and-language-div {
+        display: none;
+    }
+
+    #chat-text-div, #login-text-div, #post-ad-link-button {
+        display: none;
+    }
+
+    #top-nav-bar {
+        justify-content: space-between;
+    }
+
+    #menu-icon-div {
+        display: block;
+    }
+
 }
 
