@@ -55,6 +55,10 @@ body {
     justify-content: space-between;
 }
 
+#logo-div {
+    cursor: pointer;
+}
+
 #chat-div {
     /*display: flex;*/
     margin: 15px;
