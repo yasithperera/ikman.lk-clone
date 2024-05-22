@@ -65,7 +65,7 @@
                 text-align: center;
             }
 
-            h2{
+            h2 {
                 font-size: 18px;
             }
         }
@@ -98,11 +98,69 @@
         }
     }
 
-    footer{
+    footer {
         flex-direction: column;
         align-items: center;
         width: 95%;
     }
+
+    #search-category-div {
+        height: auto;
+        align-items: flex-start;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    #category-grid-div {
+        grid-template-columns: repeat(15, 1fr);
+        grid-template-rows: 1fr;
+        height: auto;
+        margin-left: 10px;
+
+    }
+
+    #quick-links-section {
+        width: 100%;
+        align-items: flex-start;
+        overflow-x: hidden;
+    }
+
+    #quick-links-grid {
+
+        height: auto;
+    }
+
+    .quick-link-div {
+        width: 400px;
+        height: auto;
+    }
+
+    #footer-links-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #other-countries-flag-and-name-div {
+        justify-content: flex-start;
+        a{
+            justify-content: flex-start;
+        }
+
+    }
+
+    #google-play-store-link, #apple-app-store-link{
+        div{
+            justify-content: flex-start;
+        }
+    }
+
+    #app-download-div-heading {
+        justify-content: flex-start;
+    }
+    #other-countries-heading-div {
+        justify-content: flex-start;
+    }
+
 
 }
 

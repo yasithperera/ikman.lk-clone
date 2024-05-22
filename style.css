@@ -366,7 +366,7 @@ main {
 
     p {
         font-size: 14px;
-        color: #424E4E;
+        color: var(--card-description-and-link-paragraph-text-color);
         margin: 8px 0px 16px;
         line-height: 19px;
     }
@@ -417,7 +417,7 @@ main {
 
     p {
         font-size: 14px;
-        color: #424E4E;
+        color: var(--card-description-and-link-paragraph-text-color);
         margin: 8px 0px 16px;
         line-height: 19px;
     }
@@ -625,6 +625,8 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
+    font-weight: 800;
+    color: var(--card-description-and-link-paragraph-text-color);
 
 }
 
